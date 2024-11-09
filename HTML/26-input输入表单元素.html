@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <!-- text 文本框 用户可以在里面输入任何文字 -->
+        用户名：<input type="text" name="username" placeholder="请输入用户名" maxlength="8"> <br>
+        <!-- password 密码框 用户看不到输入的密码 -->
+        密码：<input type="password" name="pwd"> <br>
+        <!-- radio 单选按钮 可以实现多选一 -->
+        <!-- name 是表单元素名字 这里性别单选按钮必须有相同的名字 name才能实现多选一-->
+        <!-- 单选按钮和复选框可以设置checked属性，当打开页面的时候就可以默认选中这个按钮 -->
+        性别：男 <input type="radio" name="sex" value="男" checked="checked"> 女 <input type="radio" name="sex" value="女"> <br>
+        <!-- checkbox 复选框 可以实现多选 -->
+        爱好：学习高数<input type="checkbox" name="hobby" checked="checked"> 背单词<input type="checkbox" name="hobby" checked="checked"> 卷前端<input type="checkbox" name="hobby" checked="checked"> <br>
+        <!-- submit 提交按钮，点击可以把表单域form里面的表单元素里面的值提交给后台服务器 -->
+        <input type="submit" value="免费注册">
+        <!-- reset 重置按钮 可以欢迎表单元素初始的默认状态 -->
+        <input type="reset"  value="重新填写"> <br>
+        <!-- button 普通按钮 后期结合js搭配使用 -->
+        <input type="button" value="获取短信验证码">
+        <!-- file 文件域 可以上传文件 -->
+        上传头像: <input type="file">
+     </form>  
+</body>
+</html>

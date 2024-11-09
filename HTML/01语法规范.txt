@@ -1,0 +1,7 @@
+<html></html> （开始 结束标签）（双标签）
+<br />(单标签）（不常用)
+包含关系  并列关系
+<html>
+      <head></head>
+      <body></body>
+</html>
